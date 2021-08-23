@@ -1,4 +1,21 @@
 - commits:
+    - subject: Add support for basic auth when downloading images from URL.
+      hash: 4225458f2ae8884a23b7ae4b5cef99c61d00fdc6
+      body: >
+        When selecting "Flash from URL" the user can optionally provide a
+        username and password for basic authentication. The authentication input
+        fields are collapsed by default. When the authentication input fields
+        are collapsed after entering values the values are cleared to ensure
+        that the user sees all parameter passed to the server.
+      footer:
+        Change-Type: minor
+        change-type: minor
+        Changelog-Entry: Add support for basic auth when downloading images from URL.
+        changelog-entry: Add support for basic auth when downloading images from URL.
+      author: Marco Füllemann
+  version: 1.6.0
+  date: 2021-08-23T19:27:00.508Z
+- commits:
     - subject: 'patch: Delete Codeowners'
       hash: a81b552b95f93a8989a6fff4774a14e21abe9a0e
       body: ''
